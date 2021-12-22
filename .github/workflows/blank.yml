@@ -26,5 +26,5 @@ jobs:
       - name: Setup PHP 8.1
         run: sudo update-alternatives --set php /usr/bin/php8.1
 
-      - name: version
+      - name: phpinfo
         run: php -r 'phpinfo();'
